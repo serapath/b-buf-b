@@ -1,0 +1,47 @@
+{
+  "name": "b-buf-b",
+  "version": "0.0.0",
+  "description": "base-x to bytesbuffer to base-x (x=2,8,10,16,32,36,64)",
+  "main": "src/b-buf-b.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --open --live",
+    "build": "browserify demo/demo.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/b-buf-b.git"
+  },
+  "keywords": [
+    "transcode",
+    "encode",
+    "encoding",
+    "decoding",
+    "decode",
+    "buffer",
+    "bytes",
+    "binary",
+    "hex",
+    "decimal",
+    "serialize",
+    "deserialize",
+    "base2",    
+    "base8",
+    "base10",
+    "base16",
+    "base32",
+    "base36",
+    "base64",
+    "basex"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/b-buf-b/issues"
+  },
+  "homepage": "https://github.com/serapath/b-buf-b#readme",
+  "devDependencies": {
+    "budo": "^11.6.3",
+    "randombytes": "^2.1.0",
+    "safe-buffer": "^5.2.1"
+  }
+}
